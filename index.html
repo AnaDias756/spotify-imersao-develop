@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./src/styles/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css">
+    <link rel="stylesheet" href="./src/styles/media-queries.css">
 </head>
 <body>
     <div class="sidebar">
@@ -54,6 +55,27 @@
                     </div>
                 </section>
 
+                <section class="section-podcast">
+                    <div class="section-podcast__content">
+                        <span class="text title">Que tal seguir um podcast novo?</span>
+                        <span class="text subtitle">Avisaremos você sobre novos episódios</span>
+                        <button class="section-podcast__button">
+                            <span>Explore Podcasts</span>
+                        </button>
+                    </div>
+                </section>
+
+                <div class="Links_uteis">
+                    <a href="">Legal</a>
+                    <a href="">Centro de Privacidade</a>
+                    <a href="">Política de Privacidade</a>
+                    <a href="">Sobre anúnios</a>
+                    <a href="">Acessibilidade</a>
+                    <a href="">Notice at collection</a>
+                    <a href="">Your privatice choices</a>
+                    <span class="fa fa-toggle-on"></span>
+                </div>
+
                 <div class="cookies">
                     <a href="">Cookies</a>
                 </div>
@@ -95,7 +117,7 @@
                 <div id="result-playlists">
                     <div class="playlist">
                         <h1 id="greeting"></h1>
-                        <h2 class="session">Navegar por todas as seções</h2>
+                        <h2 class="session">Playslists do Spotify</h2>
                     </div>
     
                     <div class="offer__scroll-conteiner">
@@ -115,12 +137,40 @@
                                         <span>Dia Feliz</span>
                                     </div>
                                 </a>
+
+                                <a href="" class="cards">
+                                    <div class="card3">
+                                        <img src="./src/assets/playlist/3.jpeg" alt="">
+                                        <span>Sextou</span>
+                                    </div>
+                                </a>
                             </section>
                         </div>   
                     </div>
                 </div>
+                
+                <div id="result-artist" class="hidden">
+                    <div class="grid-container">
+                      <div class="artist-card" id="">
+                        <div class="card-img">
+                          <img id="artist-img" class="artist-img" />
+                          <div class="play">
+                            <span class="fa fa-play"></span>
+                          </div>
+                        </div>
+                        <div class="card-text">
+                          <a title="Foo Fighters" class="vst" href=""></a>
+                          <span class="artist-name" id="artist-name"></span>
+                          <span class="artist-categorie">Artista</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
             </div>
         </div>
+
     </main>
 
     <footer class="disclaimer-premium">
@@ -135,5 +185,9 @@
           <button type="button">Inscreva-se grátis</button>
         </div>
       </footer>
+
+      <script type="text/javascript" src="./script.js"></script>
+
 </body>
+
 </html>
